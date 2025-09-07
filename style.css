@@ -3,3 +3,73 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.center-img {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-left: -40;
+  margin-right: 60;
+}
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  background: grey;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+#featured-property p {
+  text-align: center;
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.5;
+}
+#details div {
+  float: left;
+  width: 25%;
+  background: red;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.social-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
